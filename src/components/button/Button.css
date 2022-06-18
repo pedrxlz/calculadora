@@ -1,0 +1,33 @@
+:root {
+  --bg-button: rgba(0, 0, 0, 0);
+  --border-button: solid 1px #888;
+}
+
+.button {
+  cursor: pointer;
+  margin: 0px 2px;
+  border-radius: 3px;
+  font-family: "RobotoMono";
+  font-size: 1.4em;
+  color: whitesmoke;
+  font-weight: 700;
+  background-color: var(--bg-button);
+  border: none;
+  outline: none;
+}
+
+.button:active {
+  background-color: #635f62;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  color: #fa8231;
+}
