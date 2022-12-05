@@ -10,12 +10,12 @@ Dependências do projeto:
 
 Clonando repositório
 ```bash
-$ git clone https://github.com/pedrxlz/sisagri-challenge.git
+$ git clone https://github.com/pedrxlz/calculadora.git
 ```
 
 Acessando diretório do projeto
 ```bash
-$ cd sisagri-challenge
+$ cd calculadora
 ```
 
 Instalando dependências
